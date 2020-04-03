@@ -1,0 +1,27 @@
+@import "config";
+
+
+
+.symptomes{
+    width:100%;
+    text-align: center;
+    h1{
+        text-align: center;
+        color: $primary-color;    
+    }
+  
+  &__s{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        justify-content: space-between;
+    }
+        
+        
+        
+    
+   
+
+     
+}

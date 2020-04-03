@@ -1,11 +1,12 @@
 {
-  "name": "C2N3_C3N3",
+  "name": "c2n3_c3n3",
   "version": "1.0.0",
   "description": "C'est un projet pour valider les compétences C3N3 (C2N3).",
   "main": "index.js",
   "scripts": {
     "compile": "node-sass Starter-file/sass/fichier.scss Starter-file/dist/css/style.css",
     "watch": "node-sass Starter-file/sass/fichier.scss Starter-file/dist/css/style.css --watch"
+   
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,78 @@
+*{
+    text-decoration: none;
+    list-style-type:none ;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@import "config";
+
+
+.header{
+    width: 100%;
+    img{
+        margin-left: 16px;
+        margin-top: 5px;
+        height: 60px;
+        width: 50px;
+    }
+    &__nav{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background:url(../../../Design/Assets/png/bar.png);
+        ul{
+            display: flex;
+            margin-right: 30px;
+            li{
+                padding: 15px;
+                a{
+                    padding: 0px;}
+                     .arabic{
+                        padding: 5px 15px;
+                        border: 1px solid black;
+                        border-radius: 5px;
+                        i{
+                            color: gold;
+                            font-size: 20px;
+
+                        }
+                    }
+        
+                
+            
+            }
+
+        }
+    }
+    &__info{
+        background-color: $secondary-color;
+        height: 170px;
+        margin-top: -20px;
+        padding: 40px;
+        line-height: 40px;
+        text-align: center;
+        
+        p{
+            color:$primary-color;
+            text-indent: 70px;
+
+
+        }
+        }
+
+    
+    &__controle{
+        width: 100%;
+        display:flex;
+        float: right;
+        &__doctors img{
+        width: 560px;
+        height: 300px;
+        
+    }
+    }
+    
+}
