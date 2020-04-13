@@ -1,0 +1,102 @@
+@import "config";
+
+@mixin styl-i {
+    color: $decolor;
+    margin-left: 7px;
+    
+}
+@mixin list-acciel {
+    border: solid $primary-color 1px;
+    color: #000;
+    padding: 2px;
+    font-size: 15px;
+    border-radius: 7px;
+}
+@mixin button {
+    font-size: 26px;
+    background-color: $primary-color ;
+    color: white;
+    font-weight: 900;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.protége{
+    line-height: 1.5;
+    .protége__addr{
+        text-align: center;
+        color: $primary-color;
+        font-size: large;
+    }
+    .protége__exemp{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+         margin: 0px 200px;
+         color: $primary-color;
+    }
+    .protége__maisan{
+        text-align: center;
+        margin-top: 20px;
+        color: $primary-color;
+       
+    }
+
+}
+.Connaître{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #D0E5F0;
+    .Connaître__info{
+        text-align: center;
+        font-size: larger;
+        .Connaître__info__had{
+            color: $primary-color;
+        }
+        .Connaître__info__parg{
+            color: #1A519E;
+            font-weight: 900;
+        }
+    }
+    .Connaître__plus-info button{
+        background-color: #1078AD;
+        font-weight: 900;
+        border-radius: 7px;
+        border: none;
+        color: white;
+        font-size: 16px;
+        padding: 14px 40px;
+        width: 250px;
+        text-align: center;
+
+    }
+}
+.question{
+    text-align: center;
+    color: $primary-color;
+   
+}
+.Symptômes{
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+    .Symptômes div{
+        width: 100px;
+        margin: 100px;
+    }
+    .Symptômes__1{
+        margin-left: 100px;
+    }
+    .Symptômes__2{
+        margin-left: 100px;
+    }
+}

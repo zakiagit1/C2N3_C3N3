@@ -7,21 +7,25 @@
     text-align: center;
     h1{
         text-align: center;
-        color: $primary-color;    
+        color: $primary-color;
+        font-size: 3em;    
     }
   
-  &__s{
-        width: 50%;
+  &__cas{
+        width: 30%;
         display: flex;
         justify-content: center;
         margin: auto;
         justify-content: space-between;
-    }
-        
-        
-        
-    
-   
 
-     
-}
+        h2{
+                margin-left: 2%;
+                margin-top: 6%;   
+                width: 100%;
+                text-align: center;
+                line-height: 1em;
+        }
+        img{
+            height: 10em;
+        }
+    }}

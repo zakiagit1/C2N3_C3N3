@@ -1,44 +1,67 @@
 
 @import "config";
 
-.recommandations{
+.reco{
     width: 100%;
     background-color: $primary-color;
     h1{
         text-align: center;
         padding-top:30px;
         color: $other-color;
+        margin-top: 1em;
+        font-size: 2.5em;
     }
-    p{
-        color: black;
-       
-    }
-    &__parts{
+    
+    .parts{
         display: flex;
+        justify-content: space-around;
+        padding-top: 1em;
+        
 
-
-    }
-    &__parts__list{
+    
+    &__list{
         width: 60%;
+        
         ul{
             color: white;
-            line-height: 20px;
-        }
-     &__parts__contact{
-         width: 40%;
-         display: flex;
-         flex-direction: column;
-         span {
-            background-color: #F4CF1B;
-            width: 200px;
-            text-align: center;
-            color: #1078AD;
-            font-size: 20px;
-            font-weight: 700;
-            margin-bottom: 15px;
-            padding: 15px;
-            border-radius: 5px;
+            font-size: 2.3em;
+            line-height: 1.5em;
+         
+            p{
+              color: black;
+    
+        }}}
+     &__contact{
+         
+         margin-right: 20%;
+         text-align: center;
+         line-height:5em;
+         align-items: center;
+         font-size: large;
+         h2{
+            color: $secondary-color;
+            font-weight: bold;
+            
+         }
+         .btn{
+             width: 300px;
+            background-color:$secondary-color;
+           text-align: center;
+            height: 28px;
+            color:$primary-color;
+            font-weight:bold;
+            border-radius: 3px;
+            padding-bottom: 2em ;
+            font-size: 35px;
+            
+            
+            
 
+        }
+        a{
+            color: #fff;
+            border-bottom: solid $secondary-color;
+            font-size: x-large;
         }
 
      }   

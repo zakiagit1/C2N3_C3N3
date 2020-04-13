@@ -1,0 +1,17 @@
+@import "config";
+
+.transmet {
+    color: $primary-color;
+    .transmet__title{
+        text-align: center;
+        margin-top: 30px;
+
+    }
+    .transmet__évite{
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+
+    }
+
+}
