@@ -35,7 +35,7 @@
           margin-top: 25px;
           border-radius: 10px;
           background-color: transparent;
-          padding-right: 35px;
+          padding: 6px 12px;
           border: 2px solid #1078AD;
           color: #1078AD; }
           .header__nav ul li .arabic i {
@@ -92,11 +92,6 @@
       color: white;
       font-size: 1.2em; }
 
-* {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Cairo', sans-serif; }
-
 .symptomes {
   width: 100%;
   text-align: center; }
@@ -118,11 +113,6 @@
       line-height: 1em; }
     .symptomes__cas img {
       height: 10em; }
-
-* {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Cairo', sans-serif; }
 
 .test {
   display: flex;
@@ -194,11 +184,6 @@
   width: 100%;
   background-color: #1078AD; }
 
-* {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Cairo', sans-serif; }
-
 .reco {
   width: 100%;
   background-color: #1078AD; }
@@ -249,47 +234,38 @@
   list-style-type: none;
   font-family: 'Cairo', sans-serif; }
 
-* {
-  text-decoration: none;
-  list-style-type: none;
-  font-family: 'Cairo', sans-serif; }
-
-body {
-  margin: 0;
-  padding: 0; }
-
 .protége {
   line-height: 1.5; }
-  .protége .protége__addr {
+  .protége .protége__title {
     text-align: center;
     color: #1078AD;
     font-size: large; }
-  .protége .protége__exemp {
+  .protége .protége__kinds {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
     margin: 0px 200px;
     color: #1078AD; }
-  .protége .protége__maisan {
+  .protége .protége__home {
     text-align: center;
     margin-top: 20px;
     color: #1078AD; }
 
-.Connaître {
+.info {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #D0E5F0; }
-  .Connaître .Connaître__info {
+  background-color: #96C5DC; }
+  .info .info__half1 {
     text-align: center;
     font-size: larger; }
-    .Connaître .Connaître__info .Connaître__info__had {
+    .info .info__half1 .info__half1__title {
       color: #1078AD; }
-    .Connaître .Connaître__info .Connaître__info__parg {
-      color: #1A519E;
+    .info .info__half1 .info__half1__text {
+      color: #1078AD;
       font-weight: 900; }
-  .Connaître .Connaître__plus-info button {
+  .info .info__more-info button {
     background-color: #1078AD;
     font-weight: 900;
     border-radius: 7px;
@@ -299,22 +275,6 @@ body {
     padding: 14px 40px;
     width: 250px;
     text-align: center; }
-
-.question {
-  text-align: center;
-  color: #1078AD; }
-
-.Symptômes {
-  display: flex;
-  justify-content: center;
-  text-align: center; }
-  .Symptômes .Symptômes div {
-    width: 100px;
-    margin: 100px; }
-  .Symptômes .Symptômes__1 {
-    margin-left: 100px; }
-  .Symptômes .Symptômes__2 {
-    margin-left: 100px; }
 
 * {
   text-decoration: none;
@@ -330,3 +290,33 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center; }
+
+.shema__list {
+  width: 40%;
+  text-align: center; }
+  .shema__list ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center; }
+
+.paragraphe {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto; }
+  .paragraphe__text {
+    background-color: #96C5DC;
+    font-size: 1.5em; }
+  .paragraphe hr {
+    width: 25%;
+    border-color: #F4CF1B; }
+  .paragraphe__btn {
+    width: 300px;
+    background-color: #96C5DC;
+    height: 28px;
+    font-weight: bold;
+    border-radius: 3px;
+    padding-bottom: 2em;
+    font-size: 35px; }
+    .paragraphe__btn a {
+      color: #fff;
+      font-size: x-large; }

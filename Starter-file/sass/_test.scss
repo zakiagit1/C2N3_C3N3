@@ -1,0 +1,51 @@
+.shema{
+    &__list{
+        
+         width: 40%;
+         text-align: center;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+           
+           
+            
+        }
+        
+    }
+}
+
+
+.paragraphe{
+ 
+    text-align: center;
+    width: 70% ;
+    margin: 0 auto;
+    
+    &__text{
+        
+        background-color: $other-color;
+        font-size: 1.5em;
+
+    }
+    hr{
+        width:25%;
+        border-color: $secondary-color;
+    }
+
+    &__btn{
+        width: 300px;
+        background-color:$other-color;
+        height: 28px;
+        font-weight:bold;
+        border-radius: 3px;
+        padding-bottom: 2em ;
+        font-size: 35px;
+        a{
+            color: #fff;
+            font-size: x-large;
+        }
+        
+    }
+
+}
