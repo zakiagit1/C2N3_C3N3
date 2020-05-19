@@ -1,9 +1,7 @@
 .cerclebar {
     width: 30%;
     margin: 50px auto 100px;
-    //height: 0.4em;
-    border-radius: 1em;//
-    //background-color:$primary-color;//
+    border-radius: 1em;
    text-align: center;
     
     .cercle {
@@ -18,14 +16,13 @@
             text-align: center;
             width: 30%;
             position: relative;
-            //margin: 0 auto;
+            
             
             &:before {
 
                 content:"";
                 width:20px;
                 height:20px;
-                //border:1px solid transparent;
                 border-radius:20px;
                 background-color: $other-color;
                 z-index: -1;
@@ -46,7 +43,6 @@
                     content:"";
                     width:40px;
                     height:40px;
-                   // border:1px solid transparent;
                     border-radius:40px;
                     background-color: $primary-color;
                     z-index: -1;
@@ -62,14 +58,14 @@
     display: block;
     .text{
        padding: 40px;
-       background-color: $other-color;///
+       background-color: $other-color;
        margin: 50px auto;
        width: 80%;
        color: #000;
        text-align: center;
        border-radius: 10px;
        h3{
-        color: $parag-color;////
+        color: $parag-color;
         font-size: 2em;
         font-weight: 700;
 
@@ -80,7 +76,7 @@
        }
      
      hr{
-        border: 1px solid $secondary-color;//
+        border: 1px solid $secondary-color;
         width: 40%;
         margin: 10px auto;
      }
@@ -128,8 +124,8 @@
         .progressbar{
             width: 90%;
             height: 20px;
-            border: 1px solid  $other-color; ////
-            background-color: $other-color;////
+            border: 1px solid  $other-color;
+            background-color: $other-color;
             margin:  auto;
             border-radius: 13px;
             
@@ -137,7 +133,7 @@
                 font-size: large;
                 font-weight: 700;
                 height: 21px;
-                background-color: $primary-color;///:
+                background-color: $primary-color;
                 border-radius: 13px;
                 
                 
