@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>COVIDE-19</title>
-    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Cairo:300,400,600,700,900&display=swap&subset=arabic">
@@ -23,43 +22,108 @@
             </ul>
         </div>
     </header>
-<!------------------------------------------------avant-test---------------------------------------------------------------------->    
-       <div class="shema">
-           <div class="shema__disc">
-            
-           </div>
-           <div class="shema__list">
-               <ul>
-                   <li>Informations</li>
-                   <li>Qustionnaire</li>
-                   <li>Résultats</li>
-              </ul>
-        </div>
-       </div> 
-       <section  class="paragraphe">
-          <div class="paragraphe__text">
-           <h1> Préambule</h1>
-           <p>« L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer
-               à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de
-               Coronavirus COVID-19.ustivité, l’exactitude, le caractère à jour des informations et contenus
-              mis à disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.</p>
-
-           <hr>
-           <p>L’utilisation de l’application et de son contenu ne remplace en aucun cas le conseil nécessaire donné par votre 
-              médecin ou votre pharmacien ou tout autre professionnel de santé compétent dans chaque cas particulier.
-              Tout examen ou décision de l’utilisateur doit être réalisé ou prise de manière autonome sur la base de l’information
-              scientifique et clinique pertinente,
-              de la notice officielle du produit concerné le cas échéant et en cas de doute, en consultant un médecin compétent. </p>
-         </div>
- 
-
-         <div> <button class="paragraphe__btn"><a href="test.html">Demarer le test </a> </button></div>
-
-       </section>
-       
+   
+        
 
                     
- 
+ <!--------------------------------------cerclebar------------------------------------------->
+
+ <div class="cerclebar" id="cerclebar"> 
+    <ul class="cercle"  id="cercle">
+        <li class="cercle__item cercle__item--active" >Information</li>
+        <li class="cercle__item" >Questionnaire</li>
+        <li class="cercle__item" >Résultats</li>
+    </ul>
+</div>
+
+
+
+<!--------------------------------------------Préambule--------------------------------------------------->
+
+
+        <div class="préambule" id="préambule">
+        <div class="text">
+            <h3>Préambule</h3>
+            <p>
+                « L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à fluidifier
+                 la prise en charge des personnes par les services d’urgencespendant l’épidémie de Coronavirus COVID-19. L’exhaustivité,
+                  l’exactitude, le caractère à jour des informations et contenu mis à disposition dans cette application, ou leur adéquation 
+                  à des finalités particulières, ne sont pas garantis. 
+            </p>
+                
+             <hr>
+             <p>
+                L’utilisateur reconnaît que l’application y compris le test et les autres informations qu’elle contient,   ne constituent
+                en aucun cas un avis, une recommandation, un examen, un diagnostic, une prescription, ou tout  autre acte de nature
+                médicale notamment établi ou réalisé par un médecin ou un pharmacien. L’utilisation de l’application 
+                et de son contenu ne remplace en aucun cas le conseil nécessaire donné par votre médecin ou votre pharmacien
+                ou tout autre professionnel de santé compétent dans chaque cas particulier. Tout examen ou décision de l’utilisateur 
+                doit être réalisé ou prise de manière autonome sur la base de l’information scientifique et clinique pertinente,
+                de la notice officielle du produit concerné le cas échéant et en cas de doute, en consultant un médecin compétent. 
+            </p>
+
+        </div>
+
+        
+            <div class="test">
+                <button type="button" id ="demarer" >Demarer le test</button>
+            </div>
+           
+            
+        </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+<!---------------------------------------------------quitions--------------------------------------------------------------------------------------------->    
+ <div class="global" id="global">
+    <div class="progressbar-global" >
+        <div class="conteur" id ="conteur">1/23</div>
+
+        <div class="progressbar">
+             <div class="progress" id="prog">
+             </div>
+        </div>   
+        
+    </div>
+     <div class="questionnaire" id="questionnaire"> 
+
+     </div>
+     <div class="answer" id="answer"></div>
+     
+     <div class="question_1" id="question_1">
+         <h3>Anti-inflammatoires non stéroïdiens</h3>
+         <p>
+            La prise d'anti-inflammatoires (ibuprofène, cortisone ...)<br>
+             pourrait être un facteur d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.<br>
+              Cette remarque concerte les traitements par gélules ou comprimés et ne concerne pas les formes inhalées.
+             Si vous êtes déjà sous traitement, n'arrêtez pas ce traitement,<br>
+              demandez l'avis de votre médecin ou de votre pharmacien. </p>
+
+     </div>
+     <div class="button">
+        <button class="btn" id="précédent">précédent </button>
+        <button class="btn" id="suivant">suivant</button>
+     </div>
+</div>
+<!------------------------------------------------------------------------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------------------------------------------------------>
+<div class="resultat" id="resultat">
+    <div class="h3">
+    <h3>Votre état ne semble pas préoccupant.</h3>
+    </div>
+    <div class="result">
+        <h2 id="consultation-Résultat"></h2>
+    
+    
+    </div>
+    <div class="reprendre">
+        <button class="reprend" id="reprend">reprendre le test</button>
+    </div>
+   
+    
+
+
+</div>
+
 <!----------------------------------------------Recommandations-------------------------------------------------------------->
     <div class="reco">
           <h1>Recommandations officielles </h1>
@@ -106,12 +170,12 @@
                 </li>
             </ul>
         </div>
-        <div class="sec-footer__list__conct">
-            <h2 class="sec-footer__list__conct__hed2">Contacts utiles</h2>
+        <div class="sec-footer__list__contact">
+            <h2 class="sec-footer__list__contact__elem">Contacts utiles</h2>
             <h3>Chiffre économique "Alo épidémie vigilance"</h3>
-            <h3 class="sec-footer__list__conct__num" >080 100 47 47</h3>
+            <h3 class="sec-footer__list__contact__num" >080 100 47 47</h3>
             <h3>Aide médicale urgente</h3>
-            <h3 class="sec-footer__list__conct__num">114</h3>
+            <h3 class="sec-footer__list__contact__num">114</h3>
         </div>
         <div class="sec-footer__list__algo">
             <p>Algorithme d'orientation mis à jour sur les recommandations en vigueur 
@@ -127,6 +191,6 @@
 
 
 
-
+<script src="Starter-file/dist/js/script.js"></script>
 </body>
 </html>

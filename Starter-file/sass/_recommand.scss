@@ -37,16 +37,16 @@
          text-align: center;
          line-height:5em;
          align-items: center;
-         font-size: large;
+       
          h2{
             color: $secondary-color;
             font-weight: bold;
+            font-size: 30px;
             
          }
          .btn{
              width: 300px;
             background-color:$secondary-color;
-           text-align: center;
             height: 28px;
             color:$primary-color;
             font-weight:bold;
@@ -61,7 +61,7 @@
         a{
             color: #fff;
             border-bottom: solid $secondary-color;
-            font-size: x-large;
+            font-size: 30px;
         }
 
      }   
